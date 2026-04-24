@@ -140,7 +140,7 @@ class MainWindow(QMainWindow):
 
         self._active_event: LagEvent | None = None
 
-        self.setWindowTitle("System Lag Detective")
+        self.setWindowTitle("LagLense")
         self.resize(1100, 720)
         self.setMinimumSize(800, 550)
         self._apply_dark_theme()
@@ -162,7 +162,7 @@ class MainWindow(QMainWindow):
 
         # --- Header ---
         header = QHBoxLayout()
-        title = QLabel("🔍 System Lag Detective")
+        title = QLabel("LagLense")
         title.setStyleSheet(f"color: {TEXT}; font-size: 20px; font-weight: 800;")
         self._status_dot = StatusDot()
         self._baseline_label = QLabel("Baseline: learning…")
