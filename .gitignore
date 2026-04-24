@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Database (user data — don't commit this)
+data/lag_history.db
+
+# PyInstaller
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/

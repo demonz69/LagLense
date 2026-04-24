@@ -1,0 +1,4 @@
+psutil>=5.9.0
+PySide6>=6.5.0
+SQLAlchemy>=2.0.0
+pyinstaller>=5.0.0
