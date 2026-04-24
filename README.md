@@ -1,4 +1,4 @@
-# 🔍 LagLens v1.0
+# LagLens v1.0
 
 > **See exactly why your PC lagged — with forensic context captured before the spike hit.**
 
@@ -6,7 +6,7 @@ LagLens is a Windows desktop tool that monitors your system in real time and aut
 
 ---
 
-## 🚀 For Windows Users (No Python Needed)
+## For Windows Users (No Python Needed)
 
 **Download `LagLens.exe` from the [Releases](../../releases) page and run it. That's it.**
 
@@ -17,7 +17,7 @@ LagLens is a Windows desktop tool that monitors your system in real time and aut
 
 ---
 
-## 🐧 For Linux / macOS Users (From Source)
+## For Linux / macOS Users (From Source)
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/laglens.git
@@ -32,7 +32,7 @@ python main.py
 
 ---
 
-## ✨ What It Does
+## What It Does
 
 ### Live Dashboard
 | Metric | What it measures |
@@ -66,7 +66,7 @@ Every confirmed lag event gets a plain-English explanation:
 
 ---
 
-## 🏗 Building the .exe Yourself (Windows)
+## Building the .exe Yourself (Windows)
 
 If you want to build `LagLens.exe` from source:
 
@@ -81,7 +81,7 @@ Output: `dist\LagLens.exe` — a single portable file.
 
 ---
 
-## 🏛 Architecture
+## Architecture
 
 ```
 main.py                 Entry point — wires all components
@@ -100,7 +100,7 @@ ui/
 
 ---
 
-## 🧪 Tests
+## Tests
 
 ```bash
 python tests/test_detection.py
@@ -109,7 +109,7 @@ python tests/test_detection.py
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 - [ ] Disk I/O collector (`psutil.disk_io_counters`)
 - [ ] Network spike detection  
